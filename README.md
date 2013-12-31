@@ -67,6 +67,25 @@ Return Value
 
 `Bitfield self`
 
+### toBuffer
+
+```js
+Bitfield.toBuffer(options);
+```
+
+```js
+var buf = bf.toBuffer();
+// buf is a binary representation of the bitfield's content
+```
+
+Arguments
+
+* **options** - an object specifying options (so far unused)
+
+Return Value
+
+`Buffer content`
+
 License
 -------
 

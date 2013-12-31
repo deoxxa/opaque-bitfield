@@ -48,3 +48,7 @@ OpaqueBitfield.prototype.set = function set(n, v) {
 
   return this;
 };
+
+OpaqueBitfield.prototype.toBuffer = function toBuffer(options) {
+  return Buffer(this.backing);
+};
