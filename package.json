@@ -1,0 +1,19 @@
+{
+  "name": "opaque-bitfield",
+  "version": "0.0.0",
+  "description": "A bitfield where you can't see the insides",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deoxxa/opaque-bitfield.git"
+  },
+  "keywords": [
+    "bitfield",
+    "opaque"
+  ],
+  "author": "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/deoxxa/opaque-bitfield/issues"
+  }
+}
