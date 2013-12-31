@@ -1,6 +1,6 @@
 {
   "name": "opaque-bitfield",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A bitfield where you can't see the insides",
   "main": "index.js",
   "repository": {
