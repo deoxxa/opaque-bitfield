@@ -27,7 +27,7 @@ OpaqueBitfield.prototype.get = function get(n) {
 
 OpaqueBitfield.prototype.set = function set(n, v) {
   var a = n >> 3;
-  var b = n % 8;
+  var b = -((n%8)-7);
   var c = 1 << b;
 
   if (a >= this.backing.length) {
